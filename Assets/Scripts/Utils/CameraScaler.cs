@@ -8,8 +8,7 @@ public class CameraScaler : MonoBehaviour
 {
     private Camera _camera = default;
 
-    [SerializeField]
-    private float _defaultSize = 10f;
+    private float _defaultSize = default;
     [SerializeField]
     private float _targetAspect = 9/16f;
 
@@ -26,6 +25,7 @@ public class CameraScaler : MonoBehaviour
     private void Awake()
     {
         _camera = GetComponent<Camera>();
+        _defaultSize = _camera.orthographicSize;
 
         SetScaler();
     }
