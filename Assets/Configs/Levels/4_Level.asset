@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _field: {fileID: 4110424568757941062, guid: 87fe7affbd1234cb8a5b018032c994ed, type: 3}
   _suitSets:
-  - {fileID: 11400000, guid: cea30479073674e9781ffbd6693081d9, type: 2}
-  - {fileID: 11400000, guid: da648a83cbccf4a1fad3c4f3e61f231b, type: 2}
-  - {fileID: 11400000, guid: c0f951411d3424d4bbddf30fad01b143, type: 2}
-  - {fileID: 11400000, guid: 6b8d43b834d68475894f02137747b501, type: 2}
+  - {fileID: 11400000, guid: 5a8c8b27e26fa4907a77b93825654019, type: 2}
+  - {fileID: 11400000, guid: 233295dac29484da4858f04d98d90b2c, type: 2}
   - {fileID: 11400000, guid: 9c199eb32378f429783bc19445efbfd0, type: 2}
+  - {fileID: 11400000, guid: da648a83cbccf4a1fad3c4f3e61f231b, type: 2}
+  - {fileID: 11400000, guid: cea30479073674e9781ffbd6693081d9, type: 2}
+  - {fileID: 11400000, guid: c0f951411d3424d4bbddf30fad01b143, type: 2}

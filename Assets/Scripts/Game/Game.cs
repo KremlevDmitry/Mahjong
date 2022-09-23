@@ -94,8 +94,8 @@ public class Game : MonoBehaviour
     private Field level = default;
     private void Start()
     {
-        //NewGame(Levels.Instance.Current);
-        CreateLevel(Levels.Instance.Current, level);
+        NewGame(Levels.Instance.Current);
+        //CreateLevel(Levels.Instance.Current, level);
 
     }
 
